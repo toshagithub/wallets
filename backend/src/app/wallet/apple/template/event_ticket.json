@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.edulibris.wallet.demo01",
+  "serialNumber": "REPLACE_WITH_SERIAL_NUMBER",
+  "teamIdentifier": "64GNJPC3E3",
+  "organizationName": "REPLACE_WITH_ORGANIZATION_NAME",
+  "description": "Ulaznica za događaj",
+  "logoText": "REPLACE_WITH_LOGO_TEXT",
+  "foregroundColor": "rgb(0, 0, 0)",
+  "backgroundColor": "rgb(255, 255, 255)",
+  "eventTicket": {
+    "headerFields": [],
+    "primaryFields": [],
+    "secondaryFields": [],
+    "auxiliaryFields": [],
+    "backFields": []
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "REPLACE_WITH_SIGNED_QR_CONTENT",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "authenticationToken": "REPLACE_WITH_AUTHENTICATION_TOKEN",
+  "webServiceURL": "https://example.com/apple-wallet"
+}

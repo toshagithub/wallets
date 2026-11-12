@@ -1,0 +1,39 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.edulibris.wallet.demo01",
+  "serialNumber": "KP004",
+  "teamIdentifier": "64GNJPC3E3",
+  "organizationName": "Klub Plus",
+  "description": "Članska kartica Klub Plus",
+  "logoText": "Klub Plus",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "memberName",
+        "label": "ČLAN",
+        "value": "Petar Petrović"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "memberNumber",
+        "label": "BROJ ČLANSKE KARTICE",
+        "value": "KP001"
+      },
+      {
+        "key": "status",
+        "label": "STATUS",
+        "value": "Aktivno"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "KP001",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "authenticationToken": "wlzuOwJA0HvxYptY3gmmj3G4DgnmpFYEaFeYhOwmu_E",
+  "webServiceURL": "https://example.com/apple-wallet"
+}

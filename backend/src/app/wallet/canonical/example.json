@@ -1,0 +1,35 @@
+{
+  "pass": {
+   "id": 1,
+   "serial_number": "TKT-TEST-001"
+  },
+  "tenant": {
+    "id": 1,
+    "name": "Demo organizacija"
+  },
+  "event": {
+    "id": 1,
+    "name": "Demo koncert",
+    "starts_at": "2026-11-15T20:00:00+01:00",
+    "ends_at": "2026-11-15T23:00:00+01:00",
+    "location": "Beograd, Štark arena"
+  },
+  "holder": {
+    "id": 1,
+    "name": "Petar Petrović",
+    "email": "petar@example.com"
+  },
+  "ticket_type": {
+    "id": 1,
+    "name": "Standard",
+    "description": "Standardna ulaznica"
+  },
+  "visual": {
+    "logo_text": "Demo organizacija",
+    "foreground_color": "#000000",
+    "background_color": "#FFFFFF"
+  },
+  "meta": {
+    "schema_version": "1.0"
+  }
+}

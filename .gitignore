@@ -1,0 +1,35 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*.enc
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Database backups
+*.dump
+*.bak
+*.backup
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
